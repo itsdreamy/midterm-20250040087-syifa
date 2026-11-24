@@ -1,0 +1,19 @@
+{
+  "name": "midterm-20250040087-syifa",
+  "version": "1.0.0",
+  "description": "A small API made to connect communities through plants swap and sells.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "nodemon --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Syifa Nurul Fadilah",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
